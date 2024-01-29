@@ -1,0 +1,45 @@
+.summary-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.order-heading {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .order-heading {
+    color: #616e7c;
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+}
+.total {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .total {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+}
+.order-para {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.checkout {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: 0px;
+  padding: 5px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  text-align: center;
+}
